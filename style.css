@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Trebuchet, sans-serif;
+}
+
+.wrap {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.bill {
+    background: rgb(70, 54, 70);
+    color: white;
+    padding: 60px;
+}
+
+.bill-img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.bill-title {
+    font-size: 50px;
+}
+
+.bill-text {
+    font-size: 25px;
+}
+
+.heading {
+    font-size: 30px;
+    color: rgb(70, 54, 70);
+    margin-top: 90px;
+    padding-left: 20px;
+}
+
+.objective-text {
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 401px;
+    margin: 25px 0;
+}
+
+.row-1 {
+    width: 417px;
+}
+
+.row-2 {
+    width: 428px;
+}
+
+.experience-title2 {
+    font-size: 20px;
+    color: rgb(70, 54, 70);
+}
+
+.experience-text {
+    padding-left: 255px;
+}
+
+.text {
+    font-size: 18px;
+    color: rgb(102, 92, 102);
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.skills-text {
+    margin-top: 30px;
+}
+
+.language-list {
+    padding-left: 22px;
+    margin-top: 20px;
+}
+
+
+
+.language-item {
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.language-item::before {
+    color: rgb(194, 171, 164);
+    content: "■";
+    padding-right: 10px;
+}
+
+.language {
+    padding-bottom: 80px;
+}
+
+.form {
+    background: rgb(243, 225, 219);
+    color: rgb(70, 54, 70);
+    padding: 50px;
+}
+
+.box-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-title {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-content {
+    margin-left: 40px;
+}
+
+.form-content2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-content3 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.from-button {
+    width: 150px;
+    height: 40px;
+    color: white;
+    background: rgb(70, 54, 70);
+    border: 0;
+}
+
+button:hover {
+    background: rgb(107, 84, 107);
+}
+
+.from-field,
+.from-field2 {
+    border: 0;
+    border-bottom: 2px solid rgb(187, 171, 187);
+    background: rgb(243, 225, 219);
+    outline: none;
+}
+
+.from-field {
+    width: 280px;
+}
+
+.from-field2 {
+    width: 600px;
+    height: 20px;
+
+}
+
+.contacts {
+    background: rgb(70, 54, 70);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(153, 153, 153);
+}
+
+.contacts-text {
+    color: rgb(189, 189, 189);
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.contacts-list {
+    max-width: 1170px;
+    margin: 20px auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
+
+.contacts-title {
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+}
